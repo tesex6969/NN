@@ -1,0 +1,125 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #333;
+background-color: #f1eded;
+    background-size: cover;
+min-height: 100%;
+}
+html {
+  height: 100%;
+}
+header {
+    width: 100%;
+    background-color: #c2c2c2;
+    height: auto;
+    text-align: center;
+
+    padding: 10px;
+    font-size: larger;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: rgb(56, 55, 56);
+    margin-top: 20px;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    color: gray;
+}
+
+.dial {
+    margin-top: 5%;
+    text-align: center;
+    line-height: 35px;
+}
+
+h2 {
+    font-size: 32px;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 10;
+}
+
+
+.menu .logo {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+footer {
+      background-color: #c2c2c2;
+ position:            static;
+        bottom:                0;       
+        margin:                auto;
+        margin-bottom:        5pt;
+        padding:                0;
+        width:                100%;
+        height:                75px;
+        line-height: 19px;
+        text-align: center;
+
+}
+footer a {
+margin: 0 10px;
+  color: red;
+}
